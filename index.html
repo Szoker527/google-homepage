@@ -1,28 +1,69 @@
 <!DOCTYPE html>
-<main>
+<head>
 <style>
-.wholepage {
-    position: relative;
-    font-size: 22px;
+body html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: arial,sans-serif;
 }
-.about {
-    position: absolute;
-    top: 0%;
-    left: 0%;
+.topcontent {
+    display: flex;
+    flex-direction: row;
+    }
+.topright {
+    display: flex;
+    margin: 0 0 0 auto;
+}
+.topleft {
+    display: flex; 
+    margin: 0 auto 0 0;
+}
+#about {
+   
+}
+#images {
+    margin-left: 10px;
+}
+#gmail {
+    margin-right: 10px;
 }
 img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10%;
+}
+.dagoogleimage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 </style>
-</main>
+</head>
 <body>
-    <div class="wholepage">
-         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-        <div class="about">
-          <p>About</p>
+<div>
+    <div class="topcontent">
+        <div class="topleft">
+            <div id="about">
+                <p>About</p>
+            </div>
+            <div id="images">
+                <p>Images</p>
+            </div>
+        </div>
+        <div class="topright">
+            <div id="gmail">
+                <p>Gmail</p>
+            </div>
+            <div id="store">
+                <p>Store</p>
+            </div>
         </div>
     </div>
+    <div class="googleimage">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+   </div>
+</div>
 </body>
