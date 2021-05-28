@@ -47,12 +47,25 @@ li a {
     box-sizing: border-box;
     
 }
-img {
+.googleimage {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 150px;
+    margin-top: 250px;
     }
-.searchbar {
+form {
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    width: 250px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+}
+.searchbox {
+    display: flex;
+    
+}
+.searchicon {
     
 }
