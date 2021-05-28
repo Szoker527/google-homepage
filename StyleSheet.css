@@ -1,50 +1,51 @@
 body {
     height: 100%;
-    margin: 0;
-    padding: 0;
     font-size: 14px;
     font-family: arial,sans-serif;
 }
-.topcontent {
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+  }
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.store {
     position: relative;
-    display: flex;
-    flex-direction: row;
-    }
-.topleft {
-    display: flex;
-
+    left: -15px;
 }
-p.about {
-    margin-top: 34px;
-    margin-left: 20px;
-}
-p.store {
-    margin-top: 34px;
-    margin-left: 10px;
-}
-.topright {
+.gmail {
     position: relative;
-    display: flex;
-    margin: 10px 0 0 auto;
+    left: 106em;
 }
-.box {
-
+.images {
+    position: relative;
+    left: 105em;
 }
-.box p {
-    margin-right: 20px;
-    border: 1px solid black;
+.signin {
+    position: absolute;
+    left: 129em;
+    top: -2px;
+    color:rgb(255, 255, 255);
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
     border-radius: 4px;
-    padding: 9px 23px;
-    color: #ffff;
-    background-color: rgb(43, 43, 231);
-}
-p.images {
-    margin-top: 24px;
-    margin-right: 50px;
-}
-p.gmail {
-    margin-top: 24px;
-    margin-right: 10px;
+    padding: 9px 23px 9px 23px;
+    background-color: rgb(26, 115, 232);
+    box-shadow: rgba(66, 133, 244, 0.3) 0px 1px 2px 0px, rgba(66, 133, 244, 0.15) 0px 1px 3px 1px;
+    box-sizing: border-box;
+    
 }
 img {
     display: block;
