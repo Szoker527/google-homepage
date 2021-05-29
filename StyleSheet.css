@@ -1,9 +1,12 @@
 body {
-    height: 100%;
     font-size: 14px;
     font-family: arial,sans-serif;
 }
-ul {
+#topsite {
+    display: block;
+    position: relative;
+}
+ul {  
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,28 +17,28 @@ li {
     float: left;
 }
 li a {
+    position: absolute;
     display: block;
     color: rgb(0, 0, 0);
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-top: -7px;
   }
 .store {
-    position: relative;
-    left: -15px;
+ 
+    left: 3%;
 }
 .gmail {
-    position: relative;
-    left: 106em;
+    left: 85%
 }
 .images {
-    position: relative;
-    left: 105em;
+
+    left: 88%;
 }
 .signin {
     position: absolute;
-    left: 129em;
-    top: -2px;
+    left: 95%;
+    margin-top: -3px;
     color:rgb(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
     border-style: solid;
@@ -47,15 +50,22 @@ li a {
     box-sizing: border-box;
     
 }
+.topmiddle {
+    display: flex;
+}
 .googleimage {
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
     }
+input  {
+    border: 0
+    }
 form {
     position: relative;
-    margin: 0 auto;
+    margin: 20px auto;
     display: flex;
     width: 250px;
     border-style: solid;
@@ -66,6 +76,16 @@ form {
     display: flex;
     
 }
-.searchicon {
-    
+#bottommiddle {
+    display: block;
+    text-align: center;
+    margin-top: 30px;
+}
+.button1 { 
+    margin-right: 10px;
+    padding: 9px 23px 9px 23px;
+    box-sizing: border-box;
+}
+footer {
+    display: flex;
 }
