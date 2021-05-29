@@ -1,1 +1,1 @@
-The current project is for me to deconstruct the google homepage and rebuild it.
+The current project is for me to create another google homepage.
