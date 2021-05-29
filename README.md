@@ -1,1 +1,2 @@
-The current project is for me to deconstruct the google homepage and rebuilt it.
+I'm trying to create something that looks like google homepage.
+
