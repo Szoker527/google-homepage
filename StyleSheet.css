@@ -59,32 +59,56 @@ li a {
     margin-left: auto;
     margin-right: auto;
     margin-top: 250px;
-    }
-input  {
-    border: 0
-    }
+}
+.middle {
+    display: block;
+    text-align: center;
+}
 form {
     position: relative;
     margin: 20px auto;
     display: flex;
-    width: 250px;
+    width: 40%;
+    height: 30px;
+    border-color: rgba(153, 131, 131, 0.445);
     border-style: solid;
     border-width: 1px;
     border-radius: 20px;
 }
-.searchbox {
+input  {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
     display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+    }
+.searchbox {
+    display: block;
+    position: absolute;
+    margin-top: 4px;
+    left: 1%;
+    max-width: 100%;
+    color: rgba(153, 131, 131, 0.445);
     
 }
 #bottommiddle {
     display: block;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 21px;
 }
 .button1 { 
     margin-right: 10px;
-    padding: 9px 23px 9px 23px;
-    box-sizing: border-box;
+    padding: 7px 15px 7px 15px;
+}
+.button2 {
+    padding: 7px 15px 7px 15px;
 }
 footer {
     display: flex;
