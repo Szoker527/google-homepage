@@ -1,1 +1,1 @@
-The current project is for me to create another google homepage.
+I'm trying to create something that looks like google homepage.
