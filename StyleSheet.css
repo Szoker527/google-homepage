@@ -22,7 +22,7 @@ li a {
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
-    margin-top: -7px;
+    margin-top: -5px;
   }
 .store {
  
@@ -35,10 +35,15 @@ li a {
 
     left: 88%;
 }
+.appsicon {
+    position: absolute;
+    left: 92.5%;
+    margin-top: 4px;
+}
 .signin {
     position: absolute;
     left: 95%;
-    margin-top: -3px;
+    margin-top: 0px;
     color:rgb(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
     border-style: solid;
@@ -48,6 +53,8 @@ li a {
     background-color: rgb(26, 115, 232);
     box-shadow: rgba(66, 133, 244, 0.3) 0px 1px 2px 0px, rgba(66, 133, 244, 0.15) 0px 1px 3px 1px;
     box-sizing: border-box;
+    cursor: pointer;
+    user-select: none;
     
 }
 .topmiddle {
@@ -58,11 +65,12 @@ li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 250px;
+    margin-top: 225px;
 }
 .middle {
     display: block;
     text-align: center;
+    margin-top: 50px;
 }
 form {
     position: relative;
@@ -95,11 +103,9 @@ input  {
 .searchicon {
     display: block;
     position: absolute;
-    max-width: 100%;
-    height: auto;
-    margin-top: 2px;
-    left: 1%;
-    max-width: 100%;
+    width: 20px;
+    margin-top: 10px;
+    left: 2%;
     color: rgba(153, 131, 131, 0.445);
     
 }
@@ -110,10 +116,36 @@ input  {
 }
 .button1 { 
     margin-right: 10px;
-    padding: 7px 15px 7px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 .button2 {
-    padding: 7px 15px 7px 15px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 footer {
     display: flex;
