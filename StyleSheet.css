@@ -1,6 +1,10 @@
-body {
+html,body {
+    position: relative;
     font-size: 14px;
     font-family: arial,sans-serif;
+    min-height: 100vh;
+    margin:0;
+    padding:0;
 }
 #topsite {
     display: block;
@@ -22,7 +26,7 @@ li a {
     color: rgb(0, 0, 0);
     padding: 14px 16px;
     text-decoration: none;
-    margin-top: -5px;
+    margin-top: 7px;
   }
 .store {
  
@@ -38,12 +42,12 @@ li a {
 .appsicon {
     position: absolute;
     left: 92.5%;
-    margin-top: 4px;
+    margin-top: 16px;
 }
 .signin {
     position: absolute;
     left: 95%;
-    margin-top: 0px;
+    margin-top: 10px;
     color:rgb(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
     border-style: solid;
@@ -65,12 +69,12 @@ li a {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 225px;
+    margin-top: 250px;
 }
 .middle {
     display: block;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
 }
 form {
     position: relative;
@@ -148,5 +152,19 @@ input  {
     user-select: none;
 }
 footer {
+    position:absolute; 
+    right: 0;
+    bottom:0;
+    left:0;
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid #8d9dac00;
+    background-color: #abb4bd73;
+    z-index: 1;
+}
+footer p {
+    color: #70757a;
+    z-index: 2;
 }
