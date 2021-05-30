@@ -37,16 +37,16 @@ li a {
 }
 .images {
 
-    left: 88%;
+    left: 87.5%;
 }
 .appsicon {
     position: absolute;
-    left: 92.5%;
+    left: 92%;
     margin-top: 16px;
 }
 .signin {
     position: absolute;
-    left: 95%;
+    left: 94%;
     margin-top: 10px;
     color:rgb(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
@@ -156,15 +156,23 @@ footer {
     right: 0;
     bottom:0;
     left:0;
+    height: 50px;
+    border-top: solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
     border: 1px solid #8d9dac00;
-    background-color: #abb4bd73;
+    background-color: #dde2e773;
     z-index: 1;
 }
-footer p {
+footer button {
+    margin-top: 12px;
+    font-size: 15px;
     color: #70757a;
     z-index: 2;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    user-select: none;
 }
