@@ -12,6 +12,11 @@ html,body {
 }
 ul {  
     list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: ;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -21,33 +26,33 @@ li {
     float: left;
 }
 li a {
-    position: absolute;
-    display: block;
+    display: block; 
     color: rgb(0, 0, 0);
-    padding: 14px 16px;
+    padding: 0px;
     text-decoration: none;
-    margin-top: 7px;
+    margin-top: 25px;
   }
+.about {
+    margin-left: 25px;
+}
 .store {
- 
-    left: 3%;
+    margin-left: 15px;
 }
 .gmail {
-    left: 85%
+    margin-right: 13px;
 }
 .images {
-
-    left: 87.5%;
+    margin-right: 180px;
 }
 .appsicon {
     position: absolute;
     left: 92%;
-    margin-top: 16px;
+    margin-top: -21px;
 }
 .signin {
     position: absolute;
-    left: 94%;
-    margin-top: 10px;
+    left: 94.5%;
+    margin-top: -27px;
     color:rgb(255, 255, 255);
     border-color: rgba(0, 0, 0, 0);
     border-style: solid;
