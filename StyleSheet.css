@@ -16,7 +16,6 @@ ul {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    justify-content: ;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -162,22 +161,33 @@ footer {
     bottom:0;
     left:0;
     height: 50px;
-    border-top: solid;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border: 1px solid #8d9dac00;
+    border-color: rgba(0, 0, 0, 0);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4px;
     background-color: #dde2e773;
     z-index: 1;
 }
-footer button {
+footer ::before {
+
+}
+.buttonlook {
     margin-top: 12px;
-    font-size: 15px;
+    font-size: 14px;
     color: #70757a;
     z-index: 2;
     border: none;
     background-color: transparent;
     cursor: pointer;
     user-select: none;
+}
+.bottomleft {
+    margin-left: 20px;
+}
+.bottomright {
+    margin-right: 20px;
 }
