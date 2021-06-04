@@ -165,15 +165,8 @@ footer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    border-color: rgba(0, 0, 0, 0);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 4px;
+    border-top: 1px solid rgb(182, 172, 172);
     background-color: #dde2e773;
-    z-index: 1;
-}
-footer ::before {
-
 }
 .buttonlook {
     margin-top: 12px;
